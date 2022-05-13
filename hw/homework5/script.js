@@ -1,5 +1,18 @@
 const DEFAULT_MARKS_AMOUNT = 6;
 
+function generateStudents(amount) {
+    const students = [];
+
+    for(let i = 0; i < amount; i++) {
+        students[i] = {
+            name: prompt('Enter student name'),
+            marks: getRandomMarks()
+        };
+    }
+
+    return students;
+}
+
 function getRandomMarks() {
     const marks = [];
     for(let i = 0; i < DEFAULT_MARKS_AMOUNT; i++) {
