@@ -133,3 +133,13 @@
 //     let name = 'Alex';
 // })();
 
+// Q6: forEach vs map
+
+// const array = [334, 543, 656, 23];
+
+// array.forEach((e) => {
+//     console.log(e);
+// });
+
+// const anotherArray = array.map(e => Math.pow(e, 3));
+// console.log(anotherArray);
