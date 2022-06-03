@@ -1,0 +1,19 @@
+.color-gray {
+    color: gray;
+}
+
+.color-yellow {
+    color: yellow;
+}
+
+.big-text {
+    font-size: large;
+}
+
+.hidden {
+    display: none;
+}
+
+#heading {
+    background-color: aliceblue;
+}
