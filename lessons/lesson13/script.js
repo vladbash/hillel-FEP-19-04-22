@@ -26,8 +26,10 @@ console.log(heading);
 const btnEl = document.getElementById('toggle-btn');
 const mainEl = document.getElementById('main');
 const hiddenEl = document.getElementById('hidden-block');
+const userNameInputEl = document.getElementById('user-name');
 
 btnEl.onclick = () => {
+    let value = userNameInputEl.value; // get value form input
     mainEl.classList.toggle('hidden');
     hiddenEl.classList.toggle('hidden');
 };
