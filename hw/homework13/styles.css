@@ -1,0 +1,7 @@
+.hidden {
+    display: none;
+}
+
+li.checked > span {
+    text-decoration: line-through;
+}
